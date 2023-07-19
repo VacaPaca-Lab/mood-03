@@ -50,8 +50,8 @@ body{
 /*HEADER*/
 
 .header{
-   padding-top: 25.5px;
-   padding-bottom: 25.5px;
+   padding-top: 24px;
+   padding-bottom: 24px;
 }
 
 
@@ -96,13 +96,18 @@ body{
 .header-nav{
    display: flex;
    align-items: center;
-   flex-grow: 1;
+   gap:76px;
    justify-content: space-between;
 }
 
 .header-menu{
    display: flex;
    gap: 40px;
+}
+
+.header-cont{
+   display: flex;
+   justify-content: space-between;
 }
 
 .header-cont-inform{
