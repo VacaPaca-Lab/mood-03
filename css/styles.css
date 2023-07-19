@@ -90,12 +90,14 @@ body{
 .header-container{
    display: flex;
    gap: 332px;
+   align-items: center;
 }
 
 .header-nav{
    display: flex;
    align-items: center;
    flex-grow: 1;
+   justify-content: space-between;
 }
 
 .header-menu{
